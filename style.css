@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --div-line: #d9d9d9;
+  --bg-color: #f5f4f0;
+  --text-primary: #1b1b1b;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #e1624f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: var(--text-secondary);
+}
+
+body {
+  background-color: var(--bg-color);
+  padding: 80px 80px 48px;
+}
+
+main {
+  width: 1120px;
+  margin: 48px auto 28px;
+}
+
+p.red {
+  color: var(--text-headline);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+img {
+  margin: 48px 0 20px;
+  border-radius: 24px;
+}
+
+.descripton {
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+div.lineespaco {
+  padding: 40px 0;
+}
+
+div.line {
+  width: 1120px;
+  height: 1px;
+  margin: 0 auto 8px;
+  border: 1px solid var(--div-line);
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+section.card h3 {
+  color: var(--text-primary);
+  font-size: 28px;
+  padding-bottom: 4px;
+  margin-left: 5px;
+}
+
+section.card ul {
+  margin-left: 20px;
+}
+
+footer {
+  margin-top: 65px;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+footer i {
+  vertical-align: middle;
+}
